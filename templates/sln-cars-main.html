@@ -1,0 +1,94 @@
+{% extends 'afmake.html' %}
+
+{%block main%}
+
+<section>
+    <!--<div class = "row">
+    <div class="col-md-1 section-back-color"></div>
+    <div class = "col-md-10">
+      <br>
+      <br>
+      <h1 class = "h-txt-horeca"><b>Продаж нових автомобілів</b></h1>
+      <br>
+      <br>
+      <p class = "txt-horeca">Мрієте про новий автомобіль? Ми допоможемо здійснити цю мрію! В наших автоцентрах – новинки від виробників зі світовим ім'ям та багаторічною історією. І мова не лише про легкові автомобілі. Ми пропонуємо покупцям комерційний транспорт та автобуси.</p>
+      <br>
+      <div class = "container">
+        <div class = "row">
+          <<div class = "col-md-3">
+            <img src ="">
+            <p>Mercedes-Benz</p>
+            <p>38 093 026 05 09</p>
+            <p></p>
+          </div>
+          <div class = "col-md-3"></div>
+          <div class = "col-md-3"></div>
+          <div class = "col-md-3"></div>
+        </div>
+            {% for item in items %}
+             Встановлюємо ширину карточки, наприклад, на 3 з 12 можливих частин сітки, що дозволяє розмістити 4 карточки в рядок
+            <div class="col-md-3 col-sm-6">
+                <div class="card m-3 rounded">
+                    <img src="{{ url_for('static', filename='img/'+ item[3]) }}" class="card-img-rounded" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{item[1]}}</h5>
+                        <p class="card-text">{{item[2]}} грн</p>
+                        <a href="#" class="btn btn-outline-dark stretched-link">Купити</a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+        </div>
+            {% for item in items %}
+            <div class="col-md-3 col-sm-6">
+                <div class="card m-3 rounded">
+                    <img src="{{ url_for('static', filename='img/'+ item[3]) }}" class="card-img-rounded" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{item[1]}}</h5>
+                        <p class="card-text">{{item[2]}} грн</p>
+                        <a href="#" class="btn btn-outline-dark stretched-link">Купити</a>
+                        {% endfor %}
+            </div>
+            </div>
+        </div>
+        </div>
+    <div class ="col-md-1 section-back-color"></div>
+        </div>-->
+    <div class = "row">
+        <div class = "col-md-1 section-back-color"></div>
+        <div class = "col-md-10">
+            <br>
+            <br>
+            <h1 class = "h-txt-horeca"><b>Продаж нових автомобілів</b></h1>
+            <br>
+            <br>
+            <p class = "txt-horeca">Мрієте про новий автомобіль? Ми допоможемо здійснити цю мрію! В наших автоцентрах –
+                новинки від виробників зі світовим ім'ям та багаторічною історією. І мова не лише про легкові автомобілі.
+                Ми пропонуємо покупцям комерційний транспорт та автобуси.</p>
+            <br>
+            <div class = "container">
+                <div class = "row">
+                    {% for car in all_logo_cars %}
+                    <!-- Встановлюємо ширину карточки, наприклад, на 3 з 12 можливих частин сітки, що дозволяє розмістити 4 карточки в рядок -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card m-3 rounded card-logo-hover">
+                            <div class = "bg_color-logo-car">
+                                <img src="{{ url_for('static', filename='images/sln-cars-img/'+ car[4]) }}" class="img-logo-cars" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="txt-logo-cars">{{car[1]}}</h4>
+                                <a href="{{car[3]}}" class = "a-logo-hover"><h6 class = "txt-logo-cars-a a-logo-hover">{{car[2]}}</h6></a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class = "col-md-1 section-back-color"></div>
+    </div>
+</section>
+
+{%endblock main%}

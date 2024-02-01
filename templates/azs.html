@@ -1,0 +1,104 @@
+{% extends 'afmake.html' %}
+
+{%block main%}
+
+<section>
+  <div class = "row">
+    <div class = "col-md-1 section-back-color"></div>
+    <div class = "col-md-10">
+      <br>
+        <h1 class = "h-txt-horeca"><b>Мережа АЗС</b></h1>
+        <br>
+      <p class = "txt-horeca">Наші клієнти, обираючи автозаправні комплекси GRAND PETROL, після першої ж заправки залишаються з нами назавжди. Незалежно від того, автомобіль якого бренду чи моделі, зовсім новенький або ж такий, що проїхав не один десяток тисяч кілометрів, незмінними є найвища якість пального ORLEN Lietuva! Ми не будемо зайвий раз наголошувати, як важливо заправлятись якісним паливом, а просто будемо радіти, що Ваш автомобіль віддячує безвідмовною роботою, особливо зараз, коли так важливо бути мобільним!</p>
+      <p class = "txt-horeca">Мережа автозаправних комплексів GRAND PETROL дбає про те, щоб кожен клієнт міг оцінити пальне, яке виготовляється концерном ORLEN! Ми не можемо не виправдати очікувань наших клієнтів, тому бензин та дизельне паливо відповідають жорстким європейським стандартам. Наші клієнти по-справжньому цінують свої автомобілі, адже коли йдеться про справді якісне паливо, там не може бути місця компромісам!</p>
+        <br>
+        <h2 class = "h-txt-horeca"><b>ЧОМУ САМЕ ГРАНД-ПЕТРОЛ:</b></h2>
+        <br>
+        <table border = "1" class = "table-color">
+          <tr>
+            <td class = "td-table-horeca">
+              <div class = "container ">
+                <div class = "row">
+                  <div class = "col-md-3 ">
+                    <img src="{{ url_for('static', filename= 'images/azs-img/im-azs-1.svg')}}" class = "table-img">
+                  </div>
+                  <div class = "col-md-9">
+                    <p class = "table-txt-horeca-ok">Нам нема чого приховувати: сертифікат походження у вільному доступі</p>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td class = "td-table-horeca">
+              <div class = "container ">
+                <div class = "row">
+                  <div class = "col-md-3 ">
+                    <img src="{{ url_for('static', filename= 'images/azs-img/im-azs-2.svg')}}" class = "table-img">
+                  </div>
+                  <div class = "col-md-9">
+                    <p class = "table-txt-horeca-ok">Декілька видів палива: ДП, ДП+, 95, 95+, 98, 98+</p>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td class = "td-table-horeca">
+              <div class = "container ">
+                <div class = "row">
+                  <div class = "col-md-3 ">
+                    <img src="{{ url_for('static', filename= 'images/azs-img/im-azs-3.svg')}}" class = "table-img">
+                  </div>
+                  <div class = "col-md-9">
+                    <p class = "table-txt-horeca-ok">Паливні картки</p>
+                  </div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class = "td-table-horeca">
+              <div class = "container ">
+                <div class = "row">
+                  <div class = "col-md-3 ">
+                    <img src="{{ url_for('static', filename= 'images/azs-img/im-azs-4.svg')}}" class = "table-img">
+                  </div>
+                  <div class = "col-md-9">
+                    <p class = "table-txt-horeca-ok">Гарантуємо якість: перевіряємо паливо в лабораторії двічі на місяць</p>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td class = "td-table-horeca">
+              <div class = "container ">
+                <div class = "row">
+                  <div class = "col-md-3 ">
+                    <img src="{{ url_for('static', filename= 'images/azs-img/im-azs-5.svg')}}" class = "table-img">
+                  </div>
+                  <div class = "col-md-9">
+                    <p class = "table-txt-horeca-ok">Дбаємо про чистоту: при зливі бензину, в колонках і трубопроводах</p>
+                  </div>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+      <br>
+      <br>
+      <div class = "container back-color-blue">
+        <div class = "row">
+          <div class="col-md-6">
+            <p class="txt-cmc-cont">Контактний телефон</p>
+            <a href = "tel: +380930260509" class="a-txt-cmc-azs a-cmc"> +38 (093) 026-05-09</a>
+          </div>
+          <div class="col-md-6">
+            <p class="txt-cmc-cont">Подробиці на сайті:</p>
+            <a href = "https://grand-petrol.com.ua/" class="a-txt-cmc-azs a-cmc" >grand-petrol.com.ua</a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+    </div>
+    <div class = "col-md-1 section-back-color"></div>
+  </div>
+</section>
+
+{%endblock main%}

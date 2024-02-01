@@ -1,0 +1,66 @@
+{% extends 'afmake.html' %}
+
+{%block main%}
+
+<section>
+  <div class="row">
+    <div class = "col-md-1 section-back-color"></div>
+    <div class = "col-md-10 ch-a-blue">
+      <br>
+      <br>
+      <h1 class = "h-txt-horeca"><b>Каталог автомобілів</b></h1>
+      <br>
+      <br>
+        <div class = "row">
+          <div class = "col-md-3">
+              <div class="dropdown" >
+                  <form method="POST" action="/filtred_year">
+                      <input type="radio" id="ra1" name="name_ra1" value="2021">
+                      <label for="ra1" >2021</label>
+                      <br>
+                      <input type="radio" id="ra2" name="name_ra2" value="2022">
+                      <label for="ra2" >2022</label>
+                      <br>
+                      <button type="submit">Фільтрувати</button>
+                  </form>
+              </div>
+              <form method="POST" action="/filtred_drive_type">
+                  <br>
+                  <input type="radio" id="ra3" name="name_ra3" value="Джип">
+                  <label for="ra3" >Джип</label>
+                  <br>
+                  <input type="radio" id="ra4" name="name_ra4" value="Хетчбек">
+                  <label for="ra4" >Хетчбек</label>
+                  <br>
+                  <button type="submit">Фільтрувати</button>
+              </form>
+
+          </div>
+          <div class="col-md-9">
+            <div class = "container">
+                 <div class = "row">
+                    {% for car in all_brand_cars %}
+                      <div class = "col-md-4">
+                        <div class ="card">
+                            <img src="{{ url_for('static', filename= 'images/chose-auto-img/'+ car[4])}}" class = "img-car-ch-au">
+                            <p class="txt-car-ch-au-bottom">{{car[1]}}</p>
+                            <p class="txt-car-ch-au-top"><b>{{car[2]}}</b></p>
+                            <p class="txt-car-price">від {{car[3]}}<span class = "dol-col ">₴</span></p>
+                            <a href ="{{ url_for('p_car', car_id=car[0]) }}" type="button" class="btn btn-dark">Детальніше</a>
+                            </div>
+                        <br>
+                          </div>
+                    {% endfor %}
+                 </div>
+            </div>
+          </div>
+            </div>
+      </div>
+        </div>
+      </div>
+    </div>
+    <div class = "col-md-1 section-back-color"></div>
+  </div>
+</section>
+
+{%endblock main%}

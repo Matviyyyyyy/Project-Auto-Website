@@ -1,0 +1,98 @@
+{% extends 'afmake.html' %}
+
+{%block main%}
+<section>
+  <div class = "row">
+    <div class = "col-md-1 section-back-color"></div>
+    <div class = "col-md-10">
+      <br>
+      <br>
+      <h1 class = "h-txt-horeca"><b>Експедиція та вантажні перевезення</b></h1>
+      <br>
+      <br>
+      <p class = "txt-horeca">Необхідно відправити вантаж, але немає бажання розбиратися у тонкощах складання супровідних документів? Ваш бухгалтер не переносить паперову рутину? Час довіритись професіоналам!</p>
+      <p class = "txt-horeca">Фахівці компанії АСКО-ЕКСПЕДИЦІЯ надають повний комплекс транспортно-експедиторських послуг з 2002 року і досконально знають всі правові нюанси України та країн Європи. Будьте певні: всі документи, що супроводжують ваш вантаж, будуть складені правильно, професійно і оперативно.</p>
+      <br>
+      <br>
+      <h2 class = "h-txt-horeca"><b>ЧИМ ЩЕ МИ МОЖЕМО БУТИ КОРИСНИМИ?</b></h2>
+      <br>
+      <table border="1" class = "table-color">
+        <tr>
+              <td class = "td-table-horeca">
+                <div class = "container ">
+                  <div class = "row">
+                    <div class = "col-md-3">
+                      <img src="{{ url_for('static', filename= 'images/eks-van-img/im-eks-van-1.svg')}}" class = "table-img">
+                    </div>
+                    <div class = "col-md-9">
+                      <p class = "table-txt-horeca-ok">Організуємо складні мультимодальні маршрути з врахуванням специфіки вашого вантажу, місцезнаходження пункту призначення і транспортної ситуації транзитних країн</p>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td class = "td-table-horeca">
+                <div class = "container ">
+                  <div class = "row">
+                    <div class = "col-md-3">
+                      <img src="{{ url_for('static', filename= 'images/eks-van-img/im-eks-van-3.svg')}}" class = "table-img">
+                    </div>
+                    <div class = "col-md-9">
+                      <p class = "table-txt-horeca-ok">Складемо правові документи і звіти потрібною мовою</p>
+                    </div>
+                  </div>
+                </div>
+              </td>
+        </tr>
+        <tr>
+              <td class = "td-table-horeca">
+                <div class = "container ">
+                  <div class = "row">
+                    <div class = "col-md-3">
+                      <img src="{{ url_for('static', filename= 'images/eks-van-img/im-eks-van-2.svg')}}" class = "table-img">
+                    </div>
+                    <div class = "col-md-9">
+                      <p class = "table-txt-horeca-ok">Відправимо вантаж будь-яким зручним способом – автомобільним, залізничним морським або авіаційним транспортом</p>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td class = "td-table-horeca">
+                <div class = "container ">
+                  <div class = "row">
+                    <div class = "col-md-3 ">
+                      <img src="{{ url_for('static', filename= 'images/eks-van-img/im-eks-van-4.svg')}}" class = "table-img">
+                    </div>
+                    <div class = "col-md-9">
+                      <p class = "table-txt-horeca-ok">За необхідності залучимо до роботи не лише експедитора, а й третіх осіб</p>
+                    </div>
+                  </div>
+                </div>
+              </td>
+        </tr>
+      </table>
+      <br>
+      <br>
+      <h2 class = "h-txt-horeca"><b>ЧОМУ МИ?</b></h2>
+      <br>
+      <p class = "txt-horeca">У 2004 АСКО-ЕКСПЕДИЦІЯ отримала престижну нагороду в номінації «‎Лідер транспортної галузі». Компанія є членом Асоціації міжнародних експедиторів України, Торгово-промислової палати України і FIATA та відповідає всім сучасним вимогам стандарту ISO 9001: 2000, про що свідчить Сертифікат HU05/1145.</p>
+      <br>
+      <br>
+      <div class = "container back-color-blue">
+        <div class = "row">
+          <div class="col-md-6">
+            <p class="txt-cmc-cont">КОНТАКТНИЙ ТЕЛЕФОН</p>
+            <a href = "tel: +380930260509" class="a-txt-cmc-azs a-cmc"> +38 (093) 026-05-09</a>
+          </div>
+          <div class="col-md-6">
+            <p class="txt-cmc-cont">Подробиці на сайті:</p>
+            <a href = "https://asko-uac.com/index.php/ua/" class="a-txt-cmc-azs a-cmc" >asko-uac.com</a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+    </div>
+    <div class = "col-md-1 section-back-color"></div>
+  </div>
+</section>
+{%endblock main%}

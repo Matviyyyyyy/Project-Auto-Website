@@ -1,0 +1,226 @@
+{% extends 'afmake.html' %}
+
+{%block main%}
+
+<section>
+    <div class = "row">
+        <div class = "col-md-1 section-back-color"></div>
+        <div class = "col-md-10">
+            <br>
+            <h1 class = "h-txt-horeca"><b>Автосервіс</b></h1>
+            <br>
+            <img src="{{ url_for('static', filename= 'images/about-comp-img/main_up_im.jpg')}}" alt="Зображення" class ="img-up-ab" >
+            <br>
+            <br>
+            <p class = "txt-horeca">Обслуговування власного автомобіля – запорука того, що він приноситиме Вам лише позитивні емоції, а у разі ситуацій, коли лік часу йде на хвилини, не підведе і «вивезе». Корпорація AutoGura дбає, щоб Ви, звернувшись до наших автосервісних центрів вперше, стали для нас більше ніж клієнтом.</p>
+            <p class = "txt-horeca">Сучасне обладнання та інструмент, виконання ремонту та обслуговування згідно настанов автовиробників, доступ до баз даних і звісно ж персонал, який ні на мить не припиняє вчитись та вдосконалювати рівень! Це все - мережа автосервісних центрів Корпорації AutoGura!</p>
+            <p class = "txt-horeca">Адже Ви маєте бути впевненими, довіряючи обслуговування та ремонт свого автомобіля в автосервісних центрах Корпорації AutoGura , незмінними залишаються якість виконання робіт та надання послуг, а автомобіль почувається «як вдома».</p>
+            <br>
+            <h2 class = "h-txt-horeca"><b>ЧОМУ ОБИРАЮТЬ НАС</b></h2>
+            <table border="1" class = "table-color">
+                <tr>
+                    <td class = "td-table-horeca">
+                      <div class = "container ">
+                        <div class = "row">
+                          <div class = "col-md-4 ">
+                            <img src="{{ url_for('static', filename= 'images/au-ser-img/im-ser-1.svg')}}" class = "table-img">
+                          </div>
+                          <div class = "col-md-8">
+                            <p class = "table-txt-horeca-ok">Не припиняли надавати послуги з ремонту від початку війни</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class = "td-table-horeca">
+                      <div class = "container ">
+                        <div class = "row">
+                          <div class = "col-md-4 ">
+                            <img src="{{ url_for('static', filename= 'images/au-ser-img/im-ser-2.svg')}}" class = "table-img">
+                          </div>
+                          <div class = "col-md-8">
+                            <p class = "table-txt-horeca-ok">Тільки професійне обладнання та інструменти</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class = "td-table-horeca">
+                      <div class = "container ">
+                        <div class = "row">
+                          <div class = "col-md-4 ">
+                            <img src="{{ url_for('static', filename= 'images/au-ser-img/im-ser-3.svg')}}" class = "table-img">
+                          </div>
+                          <div class = "col-md-8">
+                            <p class = "table-txt-horeca-ok">Знаємось на автомобілях та тонкощах обслуговування</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class = "td-table-horeca">
+                      <div class = "container ">
+                        <div class = "row">
+                          <div class = "col-md-4 ">
+                            <img src="{{ url_for('static', filename= 'images/au-ser-img/im-ser-4.svg')}}" class = "table-img">
+                          </div>
+                          <div class = "col-md-8">
+                            <p class = "table-txt-horeca-ok">Використовуємо оригінальні запасні частини та матеріали</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class = "td-table-horeca">
+                      <div class = "container ">
+                        <div class = "row">
+                          <div class = "col-md-4 ">
+                            <img src="{{ url_for('static', filename= 'images/au-ser-img/im-ser-5.svg')}}" class = "table-img">
+                          </div>
+                          <div class = "col-md-8">
+                            <p class = "table-txt-horeca-ok">Автосервісні центри у всіх регіонах України – ми там, де зручно Вам</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class = "td-table-horeca">
+                      <div class = "container ">
+                        <div class = "row">
+                          <div class = "col-md-4 ">
+                            <img src="{{ url_for('static', filename= 'images/au-ser-img/im-ser-6.svg')}}" class = "table-img">
+                          </div>
+                          <div class = "col-md-8">
+                            <p class = "table-txt-horeca-ok">Несемо гарантійні зобов’язання перед Вами</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class = "td-table-horeca">
+                        <div class = "container ">
+                            <div class = "row">
+                                <div class = "col-md-4 ">
+                                    <img src="{{ url_for('static', filename= 'images/au-ser-img/im-ser-7.svg')}}" class = "table-img">
+                                </div>
+                                <div class = "col-md-8">
+                                    <p class = "table-txt-horeca-ok">Несемо гарантійні зобов’язання перед Вами</p>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class = "h-txt-horeca"><b>НАШІ АВТОСЕРВІСНІ ЦЕНТРИ НАДАЮТЬ ШИРОКИЙ СПЕКТР ПОСЛУГ З РЕМОНТУ ТА ОБСЛУГОВУВАННЯ</b></h2>
+            <br>
+            <br>
+            <br>
+            <table class = "table-center">
+                    <tr>
+                        <td>
+                            <div class = "row">
+                            <div class = "col-md-1"></div>
+                            <div class = "col-md-10">
+                                <h3 class = "h-l-table-au"><b>РЕМОНТ ТА ОБСЛУГОВУВАННЯ</b></h3>
+                                <br>
+                                <p class = "table-au-mini">Щодня мережа автосервісних центрів Корпорації AutoGura обслуговує понад 500 автомобілів, а це більше ніж 15 000 на місяць. І кожен з наших вдячних клієнтів, які отримують послуги з ремонту чи обслуговування знають, що фахівці Корпорації УкрАВТО суворо дотримуються усіх технологічних вимог і стандартів світових виробників. Сучасне діагностичне обладнання і спеціалізований інструмент в руках кваліфікованих фахівців сервісу дозволяють Вам бути впевненим у своєму автомобілі!</p>
+                            </div>
+                                <div class = "col-md-1"></div>
+                            </div>
+                        </td>
+                        <td class = "td-table-horeca">
+                            <img src="{{ url_for('static', filename= 'images/au-ser-img/table-au-im-1.png')}}" >
+                        </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <img src="{{ url_for('static', filename= 'images/au-ser-img/table-au-im-2.png')}}" >
+                    </td>
+                    <td class = "td-table-horeca">
+                        <div class = "row">
+                            <div class = "col-md-1"></div>
+                            <div class = "col-md-10">
+                                <h3 class = "h-l-table-au"><b>КУЗОВНИЙ РЕМОНТ</b></h3>
+                                <br>
+                                <p class = "table-au-mini">Що б не сталось з кузовом Вашого автомобіля - потрібне полірування після зимового сезону або ж Ваш автомобіль потребує складного ремонту з відновленням геометрії кузова чи заміни елементів. Наші клієнти знають, Корпорація робить все, щоб Ви якомога швидше повернулись за кермо власного автомобіля і знову були мобільними. Дбаємо не лише про Ваш автомобіль, адже довіра партнеру це дещо більше, ніж просто відновлення автомобіля.</p>
+                            </div>
+                                <div class = "col-md-1"></div>
+                            </div>
+                    </td>
+                </tr>
+                <tr>
+                        <td>
+                            <div class = "row">
+                            <div class = "col-md-1"></div>
+                            <div class = "col-md-10">
+                                <h3 class = "h-l-table-au"><b>ЗАПЧАСТИНИ</b></h3>
+                                <br>
+                                <p class = "table-au-mini">Лише за минулий рік більше 90 000 автомобілів клієнтів було відремонтовано і відновлено в мережі автосервісних центрів Корпорації УкрАВТО. Але ж якісний ремонт і технічне обслуговування неможливе без оригінальних запасних частин! Ми подбали, щоб кожен клієнт міг обрати, замовити та придбати запасні частини, що сертифіковані автовиробниками. Це означає, що обираючи Корпорацію УкрАВТО Ви можете бути впевненими в своєму автомобілі, який не підведе!</p>
+                            </div>
+                                <div class = "col-md-1"></div>
+                            </div>
+                        </td>
+                        <td class = "td-table-horeca">
+                            <img src="{{ url_for('static', filename= 'images/au-ser-img/table-au-im-4.png')}}" >
+                        </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <img src="{{ url_for('static', filename= 'images/au-ser-img/table-au-im-5.png')}}" >
+                    </td>
+                    <td class = "td-table-horeca">
+                        <div class = "row">
+                            <div class = "col-md-1"></div>
+                            <div class = "col-md-10">
+                                <h3 class = "h-l-table-au"><b>ВАРТІСТЬ ТЕХНІЧНОГО ОБСЛУГОВУВАННЯ</b></h3>
+                                <br>
+                                <p class = "table-au-mini">Технічне обслуговування без сюрпризів та несподіванок – це про можливість не лише заздалегідь записатись, оскільки Ваш час найцінніше для нас, але і змога планувати бюджет. Скористайтесь калькулятором вартості технічного обслуговування та отримуйте орієнтовні ціни, про решту подбають наші фахівці, а Ви будете смакувати каву в очікуванні на свій автомобіль.</p>
+                            </div>
+                                <div class = "col-md-1"></div>
+                            </div>
+                    </td>
+                </tr>
+                <tr>
+                        <td>
+                            <div class = "row">
+                            <div class = "col-md-1"></div>
+                            <div class = "col-md-10">
+                                <h3 class = "h-l-table-au"><b>ПРОГРАМА ЛОЯЛЬНОСТІ - DRIVE2U</b></h3>
+                                <br>
+                                <p class = "table-au-mini">Родина Drive2U – це більше ніж 180 000 клієнтів, яким Корпорація УкрАВТО віддячує за довіру під час кожного візиту до одного з автосервісних центрів. Цифра у 96% задоволених клієнтів не привід радіти, навпаки, це виклик до вдосконалення: обслуговування, якості робіт та послуг, щоб виїхавши з автосервісного центру кожен з наших клієнтів міг сказати – все в порядку, задоволений на 100%</p>
+                            </div>
+                                <div class = "col-md-1"></div>
+                            </div>
+                        </td>
+                        <td class = "td-table-horeca">
+                            <img src="{{ url_for('static', filename= 'images/au-ser-img/table-au-im-1.jpg')}}" >
+                        </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <img src="{{ url_for('static', filename= 'images/au-ser-img/table-au-im-7.png')}}" >
+                    </td>
+                    <td class = "td-table-horeca">
+                        <div class = "row">
+                            <div class = "col-md-1"></div>
+                            <div class = "col-md-10">
+                                <h3 class = "h-l-table-au"><b>ГАРАНТІЯ НА ВИКОНАНІ РОБОТИ</b></h3>
+                                <br>
+                                <p class = "table-au-mini">Відповідальність перед клієнтом, який довіряє Корпорації УкрАВТО. Що може бути дорожчим за довіру та партнерські відносини, які будуються роками? Ми ніколи не залишимо Вас на одинці з проблемою, яку можемо та маємо усунути! Здатність брати відповідальність і виконувати гарантійні зобов’язання, адже це про бізнес, для якого клієнт понад усе!</p>
+                            </div>
+                                <div class = "col-md-1"></div>
+                            </div>
+                    </td>
+                </tr>
+
+                </table>
+
+            <br>
+        </div>
+        <div class = "col-md-1 section-back-color"></div>
+    </div>
+</section>
+
+{%endblock main%}

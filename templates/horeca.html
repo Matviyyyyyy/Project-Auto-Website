@@ -1,0 +1,73 @@
+{% extends 'afmake.html' %}
+
+{%block main%}
+<section>
+    <div class = "row">
+        <div class = "col-md-1 section-back-color"></div>
+            <div class = "col-md-10">
+                <br>
+                <h1 class = "h-txt-horeca">HoReCa</h1>
+                <br>
+                <p class = "txt-horeca">Досягти поставлених цілей і повноційно реалізовувати свій потенціал можливо лише за умови якісного відпочинку. Саме тому ми розвиваємо готельно-ресторанний напрямок. Обирайте
+                    опцію до смаку - затишок заміського комплексу відпочинку  Kidev або релакс в атмосфері початку минулого століття  в ресторані "Первак".</p>
+                <p class = "txt-horeca">Ресторан національної кухні "Первак" розташований в серці ділового Києва. Яку б з  тематичних зал ви не обрали - "Бессарабка" або "Старий Львів", "Бібліотека" або
+                "Липки", "Хрещатик" або "Тераса", - на вас чекають атмосфера часів ХІХ - початку ХХ, смачні страви і родинний затишок у вирі бурхливого життя мегаполісу!</p>
+                <p class = "txt-horeca">Бажаєте відпочити, але не можете поїхати у відпустку надовго? Необхідно запросити колег на конференцію/тімбілдінг або відсвяткувати важливу дату? Ідеальна локація набагато ближча, аніж здається. – Заміська резиденція Kidev! – це доглянута природа, автентична грузинська кухня, затишні зали і відкриті майданчики, конференц-холи і комфортні готельні номери,
+                    міні-зоопарк, послуги няні, футбольні поля і відкриті тенісні корти та багато іншого.</p>
+                <p class = "txt-horeca">Яку б подію ви не запланували – бізнес-зустріч, дружній обід або тихий сімейний уїк-енд подалі від міської метушні, – ваші очікування будуть перевершені, а гості приємно вражені!</p>
+                <br>
+                <h2 class = "h-txt-horeca"><b>ЩО ВАС ЧЕКАЄ В НАШИХ ЗАКЛАДАХ?</b></h2>
+                <br>
+                <br>
+                <table border="1" class = "table-color">
+                    <tr>
+                        <td class = "td-table-horeca">
+                            <div class = "container ">
+                                <div class = "row">
+                                    <div class = "col-md-3 ">
+                                        <img src="{{ url_for('static', filename= 'images/horeca-img/im-horeca-1.svg')}}" class = "table-img">
+                                    </div>
+                                    <div class = "col-md-9">
+                                        <p class = "table-txt-horeca-ok">Гарний і затишний простір для відпочинку, бенкетів, ділових зустрічей, весіль і конференцій</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class = "td-table-horeca">
+                            <div class = "container ">
+                                <div class = "row">
+                                    <div class = "col-md-3 ">
+                                        <img src="{{ url_for('static', filename= 'images/horeca-img/im-horeca-2.svg')}}" class = "table-img">
+                                    </div>
+                                    <div class = "col-md-9">
+                                        <p class = "table-txt-horeca-ok">Різноманітне меню з унікальних рецептів</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class = "td-table-horeca">
+                            <div class = "container ">
+                                <div class = "row">
+                                    <div class = "col-md-3">
+                                        <img src="{{ url_for('static', filename= 'images/horeca-img/im-horeca-3.svg')}}" class = "table-img">
+                                    </div>
+                                    <div class = "col-md-9">
+                                        <p class = "table-txt-horeca-ok">Привітний і професійний персонал</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <p class = "txt-horeca">Живіть на повну і дозвольте собі відволіктися від повсякденної метушні, перезавантажити думки і наповнитися енергією та натхненням. Про все інше подбаємо ми!</p>
+                <br>
+                <br>
+            </div>
+    <div class = "col-md-1 section-back-color"></div>
+    </div>
+</section>
+
+
+{%endblock main%}

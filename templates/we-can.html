@@ -1,0 +1,117 @@
+{% extends 'afmake.html' %}
+
+{%block main%}
+
+<section>
+    <div class = "row">
+        <div class = "col-md-1 section-back-color"></div>
+        <div class = "col-md-10">
+            <br>
+            <h1 class = "h-txt-horeca"><b>Наші можливості</b></h1>
+            <br>
+            <img src="{{ url_for('static', filename= 'images/we-can-img/img-up-we-can.jfif')}}" class ="img_up_we_can">
+            <br>
+            <br>
+            <p class ="txt-horeca">Забезпечувати потреби клієнтів, пропонуючи великий вибір автомобілів різних брендів, надавати послуги з ремонту та технічного обслуговування – те, заради чого підприємства групи AutoGura працюють своїми командами багато десятиліть кожен день! Залишаючись найбільшим і найулюбленішим серед споживачів оператором автомобільного ринку України, група AutoGura дбає про те, щоб кожен клієнт отримував продукт чи послугу найвищої якості, оскільки найдорожче, це репутація надійного партнера, якого радять вже не один рік! Незалежно від того, яке питання Вам потрібно вирішити – купівля автомобіля, сервісне обслуговування чи вантажні перевезення, послуги митниці або ж організація дозвілля для себе чи Ваших партнерів, ми запропонуємо найкраще рішення!</p>
+            <br>
+            <br>
+            <h3 class = "h-txt-horeca"><b>МИ ЕКСПЕРТИ В ОСНОВНИХ НАПРЯМКАХ:</b></h3>
+            <div class = "row">
+                <div class = "col-md-3">
+                    <div class = "hover-we-can-icons">
+                        <a href = "/sln-cars-main" class="a-we-can-icons">
+                            <div class="back-icon-we-can">
+                                <div class="txt-we-can-icons">
+                                    <img src="{{ url_for('static', filename= 'images/we-can-img/we-can_icons-im-1.svg')}}" class ="img_we_can_icons">
+                                    <p>Продаж нових<br>автомобілів</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class = "col-md-3">
+                    <div class = "hover-we-can-icons">
+                        <a href = "/au-ser" class="a-we-can-icons">
+                            <div class="back-icon-we-can_2">
+                                <div class="txt-we-can-icons">
+                                    <img src="{{ url_for('static', filename= 'images/we-can-img/we-can-_icons-im-2.svg')}}" class ="img_we_can_icons">
+                                    <p>Автосервіс</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class = "col-md-3">
+                    <div class = "hover-we-can-icons">
+                        <a href = "/do-auto" class="a-we-can-icons">
+                            <div class="back-icon-we-can_3">
+                                <div class="txt-we-can-icons">
+                                    <img src="{{ url_for('static', filename= 'images/we-can-img/we-can-_icons-im-3.svg')}}" class ="img_we_can_icons">
+                                    <p>Виробництво<br>авто</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class = "col-md-3">
+                    <div class = "hover-we-can-icons">
+                        <a href = "/ins" class="a-we-can-icons">
+                            <div class="back-icon-we-can_4">
+                                <div class="txt-we-can-icons">
+                                    <img src="{{ url_for('static', filename= 'images/we-can-img/we-can-_icons-im-4.svg')}}" class ="img_we_can_icons">
+                                    <p>Страхування</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <h3 class = "h-txt-horeca"><b>А ТАКОЖ ПРОПОНУЄМО НАШИМ КЛІЄНТАМ І ІНШІ ПОСЛУГИ:</b></h3>
+            <div class = "row">
+                <div class = "col-md-3">
+                    <div class = "hover-we-can-icons">
+                        <a href = "/eks-van" class="a-we-can-icons">
+                            <div class="back-icon-we-can">
+                                <div class="txt-we-can-icons">
+                                    <img src="{{ url_for('static', filename= 'images/we-can-img/we-can_icons-im-5.svg')}}" class ="img_we_can_icons">
+                                    <p>Експедиція та<br>вантажні перевезення</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class = "col-md-3">
+                    <div class = "hover-we-can-icons">
+                        <a href = "/horeca" class="a-we-can-icons">
+                            <div class="back-icon-we-can_2">
+                                <div class="txt-we-can-icons">
+                                    <img src="{{ url_for('static', filename= 'images/we-can-img/we-can_icons-im-6.svg')}}" class ="img_we_can_icons">
+                                    <p>Horeca</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class = "col-md-3">
+                    <div class = "hover-we-can-icons">
+                        <a href = "/azs" class="a-we-can-icons">
+                            <div class="back-icon-we-can_3">
+                                <div class="txt-we-can-icons">
+                                    <img src="{{ url_for('static', filename= 'images/we-can-img/we-can_icons-im-7.svg')}}" class ="img_we_can_icons">
+                                    <p>Мережа АЗС</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            </div>
+
+        <div class = "col-md-1 section-back-color"></div>
+        </div>
+</section>
+
+{%endblock main%}

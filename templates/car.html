@@ -1,0 +1,288 @@
+{% extends 'afmake.html' %}
+
+{%block main%}
+
+<section>
+    <div class = "row">
+        <div class = "col-md-1 section-back-color"></div>
+        <div class = "col-md-10">
+            <div class = "row">
+                <div class = "col-md-1"></div>
+                <div class = "col-md-10">
+                    <br>
+                    <br>
+                    <h1 class = "h-txt-horeca">Автомобіль {{car[1]}} <b>{{car[2]}}</b></h1>
+                    <br>
+                    <br>
+                    <img src="{{ url_for('static', filename= 'images/car-img/'+ car[29])}}" class = "img-car-up">
+                    <p class = "right_car_price"><b> {{car[3]}}</b><span class = "dol-col ">₴</span></p>
+                    <br>
+                    <br>
+                    <p class = "main_dec_txt_cac">{{car[5]}}</p>
+                    <br>
+                    <br>
+                    <h2 class="h-txt-horeca" style="text-align: center"><b>ПРО АВТОМОБІЛЬ</b></h2>
+                    <br>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class = " card dwdwo">
+                                    <h3 class ="table_car_h_txt">Кузов, двигун, трансмісія і підвіска:</h3>
+                                    <div class="container">
+                                        <div class ="row">
+                                            <table class="center_table_">
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Тип кузова</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer">{{car[6]}}</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Робочий об'єм (см3)</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer" >{{car[7]}}</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Тип двигуна</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer" >{{car[8]}}</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Потужність, к.с/об.хв.</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer" >{{car[9]}}</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Максимальний крутний момент, Нм/об.хв.</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer" >{{car[10]}}</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Тип трансмісії</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer" >{{car[11]}}</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Система приводу</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer">{{car[12]}}</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Підвіска передня</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer">{{car[13]}}</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Підвіска задня</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer">{{car[14]}}</p>
+                                                    </td>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                            </div>
+                            <div class="col-md-6">
+                                <div class = " card dwdwo">
+                                    <h3 class ="table_car_h_txt">Експлуатаційні показники:</h3>
+                                    <div class="container">
+                                        <div class ="row">
+                                            <table class="center_table_">
+
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Максимальна швидкість км/г</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer" >{{car[15]}}</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Прискорення до 100 км/г, с</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer" >{{car[16]}}</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Витрата пального (міський цикл), л/100 км</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer">{{car[17]}}</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Витрата пального (заміський цикл), л/100 км</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer">{{car[18]}}</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Витрата пального (змішаний цикл), л/100 км</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer">{{car[19]}}</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Об'єм паливного бака, л</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer">{{car[20]}}</p>
+                                                    </td>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class = " card dwdwo">
+                                    <h3 class ="table_car_h_txt">Маса, габарити:</h3>
+                                    <div class="container">
+                                        <div class ="row">
+                                            <table class="center_table_">
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Споряджена маса, кг</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer">{{car[21]}}</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Допустима максимальна маса, кг</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer" >{{car[22]}}</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Довжина, мм</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer" >{{car[23]}}</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Ширина, мм</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer" >{{car[24]}}</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Висота, мм</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer" >{{car[25]}}</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Колісна база, мм</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer">{{car[26]}}</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Мінімальний кліренс, мм</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer">{{car[27]}}</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="txt_table_car_option"><b>Об'єм багажника, л</b></p>
+                                                    </td>
+                                                    <td>
+                                                        <p class ="txt_table_car_option_answer">{{car[28]}}</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            </div>
+
+                            </div>
+                    <br>
+                    <br>
+                    <h2 class="h-txt-horeca" style="text-align: center"><b>ГАЛЕРЕЯ</b></h2>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src = "{{ url_for('static', filename= 'images/car-img/'+ car[31])}}" style="max-width: 100%; height: auto">
+                        </div>
+                        <div class="col-md-4">
+                            <img src = "{{ url_for('static', filename= 'images/car-img/'+ car[32])}}" style="max-width: 100%; height: auto">
+                        </div>
+                        <div class="col-md-4">
+                            <img src = "{{ url_for('static', filename= 'images/car-img/'+ car[33])}}" style="max-width: 100%; height: auto">
+                        </div>
+                    </div>
+                    <br>
+                    <div class = "row">
+                        <div class = "col-md-1"></div>
+                        <div class ="col-md-6">
+                            <img src = "{{ url_for('static', filename= 'images/car-img/'+ car[34])}}" style="max-width: 100%; height: auto">
+                        </div>
+                        <div class = "col-md-5"></div>
+                    </div>
+
+
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+                <div class = "col-md-1"></div>
+            </div>
+        </div>
+        <div class = "col-md-1 section-back-color"></div>
+    </div>
+</section>
+
+{%endblock main%}
+

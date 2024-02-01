@@ -1,0 +1,167 @@
+{% extends 'afmake.html' %}
+
+{%block main%}
+
+<section>
+    <div class = "row">
+        <div class = "col-md-1 section-back-color"></div>
+        <div class = "col-md-10">
+            <div >
+                <br>
+                <h1 class = "h-txt-horeca"><b>Про компанію</b></h1>
+                <br>
+                <img src="{{ url_for('static', filename= 'images/about-comp-img/main_up_im.jpg')}}" alt="Зображення" class ="img-up-ab" >
+                <br>
+                <br>
+                <p class = "txt-horeca">Найцінніше в нашій роботі – це довіра. Відповідальність за якість наданих товарів і послуг, а також висока технологічність процесів дозволяють нам вибудовувати довгострокові відносини з клієнтами і партнерами.</p>
+                <br>
+                <p class = "txt-horeca">На цих цінностях базується діяльність Корпорації AutoGura. Ми пропонуємо продукцію світових автовиробників. Сучасні технології, які ми використовуємо в роботі наших автосервісних центрів, забезпечують клієнтам висококласне і оперативне обслуговування.</p>
+                <br>
+                <table class = "table-center">
+                    <tr>
+                        <td>
+                            <div class = "row">
+                            <div class = "col-md-1"></div>
+                            <div class = "col-md-10">
+                                <p class = "table-txt-ab"><b>ТІЛЬКИ З 1998 РОКУ ЗАВДЯКИ КОРПОРАЦІЇ УКРАВТО ВЛАСНУ АВТОМОБІЛЬНУ МРІЮ ЗДІЙСНИЛИ БЛИЗЬКО <span class = "any-color">1 400 000</span> УКРАЇНЦІВ, ЩО СТАЛИ НАШИМИ ВІДДАНИМИ КЛІЄНТАМИ.</b></p>
+                            </div>
+                                <div class = "col-md-1"></div>
+                            </div>
+                        </td>
+                        <td class = "td-table-horeca">
+                            <img src="{{ url_for('static', filename= 'images/about-comp-img/his-im-1.jpg')}}" >
+                        </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <img src="{{ url_for('static', filename= 'images/about-comp-img/his-im-2.jpg')}}" >
+                    </td>
+                    <td class = "td-table-horeca">
+                        <div class = "row">
+                            <div class = "col-md-1"></div>
+                            <div class = "col-md-10">
+                                <p class = "table-txt-ab"><b>ЗА ОСТАННІ ДЕСЯТЬ РОКІВ ЗА ПОСЛУГАМИ З ТЕХНІЧНОГО ОБСЛУГОВУВАННЯ ТА РЕМОНТУ ЧЕРЕЗ МЕРЕЖУ НАШИХ АВТОСЕРВІСНИХ ЦЕНТРІВ, РОЗТАШОВАНИХ В УСІХ КУТОЧКАХ УКРАЇНИ, ПРОЙШЛО МАЙЖЕ <span class="any-color">2 500 000</span> АВТОМОБІЛІВ.</b></p>
+                            </div>
+                                <div class = "col-md-1"></div>
+                            </div>
+                    </td>
+                </tr>
+                </table>
+                <br>
+                <br>
+                <hr>
+                <br>
+                <br>
+                <div class = "row">
+                    <div class = "col-md-3"></div>
+                    <div class = "col-md-9">
+                        <div class = "row bq-ab-back-color">
+                            <div class="col-md-1"></div>
+                            <div class = "col-md-10" >
+                                <p class="sk-bq-ab">''</p>
+                                <p class ="bq-ab-txt"><i>AutoGura – унікальна компанія. Зберігаючи провідні позиції на автомобільному ринку України протягом багатьох років, побудувавши довготривалі партнерські стосунки з лідерами світового автопрому, ми не тільки здійснюємо мрії наших споживачів про автомобіль. Найбільша мережа автосервісних центрів дозволяє нам бути саме там, де ми потрібні клієнту, коли йдеться про купівлю автомобіля чи технічне обслуговування. Але найголовніше – ми любимо свою справу і добре знаємося на ній, оскільки не може бути чогось ціннішого за вдячного споживача, який нам довіряє.</i></p>
+                                <p class="sk-bq-ab">''</p>
+                                <p class="ar-txt">Гура Матвій, Голова Правління AutoGura </p>
+                                <br>
+                                <br>
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+            </div>
+            <br>
+            <h2 class = "h-txt-horeca"><b>ТУРБОТА ПРО ВАС ВИГЛЯДАЄ ТАК:</b></h2>
+            <br>
+            <table border="1" class = "table-color">
+                <tr>
+                    <td class = "td-table-horeca">
+                      <div class = "container ">
+                        <div class = "row">
+                          <div class = "col-md-4 ">
+                            <img src="{{ url_for('static', filename= 'images/about-comp-img/ab-comt-1.svg')}}" class = "table-img">
+                          </div>
+                          <div class = "col-md-8">
+                            <p class = "table-txt-horeca-ok">Забезпеченість запасними частинами</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class = "td-table-horeca">
+                      <div class = "container ">
+                        <div class = "row">
+                          <div class = "col-md-4 ">
+                            <img src="{{ url_for('static', filename= 'images/about-comp-img/ab-comt-2.svg')}}" class = "table-img">
+                          </div>
+                          <div class = "col-md-8">
+                            <p class = "table-txt-horeca-ok">Довіра: ми несемо перед Вами відповідальність за надані послуги</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class = "td-table-horeca">
+                      <div class = "container ">
+                        <div class = "row">
+                          <div class = "col-md-4 ">
+                            <img src="{{ url_for('static', filename= 'images/about-comp-img/ab-comt-3.svg')}}" class = "table-img">
+                          </div>
+                          <div class = "col-md-8">
+                            <p class = "table-txt-horeca-ok">24/7 асистанс з власним кол-центром: що б не трапилось – ми допоможемо</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class = "td-table-horeca">
+                      <div class = "container ">
+                        <div class = "row">
+                          <div class = "col-md-4 ">
+                            <img src="{{ url_for('static', filename= 'images/about-comp-img/ab-comt-4.svg')}}" class = "table-img">
+                          </div>
+                          <div class = "col-md-8">
+                            <p class = "table-txt-horeca-ok">Розвиваємо мережу учбових центрів, дбаючи про майбутнє</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class = "td-table-horeca">
+                      <div class = "container ">
+                        <div class = "row">
+                          <div class = "col-md-4 ">
+                            <img src="{{ url_for('static', filename= 'images/about-comp-img/ab-comt-5.svg')}}" class = "table-img">
+                          </div>
+                          <div class = "col-md-8">
+                            <p class = "table-txt-horeca-ok">Завжди маємо рішення, як забезпечити Вашу мобільність</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class = "td-table-horeca">
+                      <div class = "container ">
+                        <div class = "row">
+                          <div class = "col-md-4 ">
+                            <img src="{{ url_for('static', filename= 'images/about-comp-img/ab-comt-6.svg')}}" class = "table-img">
+                          </div>
+                          <div class = "col-md-8">
+                            <p class = "table-txt-horeca-ok">Автосервісні центри з повним спектром послуг ремонту та обслуговування</p>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <p class = "txt-horeca">Довіра мільйонів клієнтів, які обирають Корпорацію AutoGura, як надійного партнера – безцінна. Довіра для нас, не просто слова: кількість задоволених клієнтів після візитів до автосервісних центрів Корпорації AutoGura сягає більше 96 %. Звісно, що ми прагнемо кращого результату, і саме це спонукає нас до постійного вдосконалення!</p>
+            <p class = "txt-horeca">Якими б не були складні умови, наші автосервісні центри забезпечені всім необхідним, щоб Ви залишались мобільними, а обслуговування чи ремонт автомобіля здійснювалось оперативно. Мережа автосервісних центрів дозволяє нам бути поруч з клієнтом, а Вам, відповідно, мати можливість отримувати високоякісні послуги: з придбання автомобіля чи сервісного обслуговування. Обирайте один з автосервісних центрів Корпорації AutoGura, а ми зробимо все можливе, щоб виправдати та перевершити Ваші очікування!</p>
+            <br>
+            <br>
+        </div>
+        <div class = "col-md-1 section-back-color"></div>
+    </div>
+</section>
+
+{%endblock main%}

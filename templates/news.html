@@ -1,0 +1,44 @@
+{% extends 'afmake.html' %}
+
+{%block main%}
+
+<section>
+  <div class="row">
+    <div class = "col-md-1 section-back-color"></div>
+    <div class = "col-md-10">
+      <br>
+      <br>
+      <h1 class="h-txt-horeca"><b>Новини</b></h1>
+      <br>
+      <br>
+      <div class = "container">
+        <div class="row">
+          {% for new in all_news %}
+            <div class = "col-md-4">
+              <div class = "card card-logo-hover">
+                <img src="{{ url_for('static', filename= 'images/news-img/'+ new[3])}}">
+                <br>
+                <div class="row">
+                  <div class = "col-md-1"></div>
+                  <div class="col-md-10">
+                    <p class = "news-txt">{{new[1]}}</p>
+                  </div>
+                  <div class ="col-md-1"></div>
+                </div>
+                <div class = "rt-date-news"><div class = "news-date">{{new[2]}}</div></div>
+              </div>
+              <br>
+                </div>
+          {% endfor %}
+        </div>
+          </div>
+        <br>
+        <br>
+        </div>
+      </div>
+    </div>
+    <div class = "col-md-1 section-back-color"></div>
+  </div>
+</section>
+
+{%endblock main%}

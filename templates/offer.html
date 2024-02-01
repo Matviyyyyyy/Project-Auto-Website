@@ -1,0 +1,38 @@
+{% extends 'afmake.html' %}
+
+{%block main%}
+<section>
+    <div class="row">
+        <div class = "col-md-1 section-back-color"></div>
+        <div class = "col-md-10">
+            <br>
+            <br>
+            <br>
+            <h1 class="h-txt-horeca"><b>Акції</b></h1>
+            <br>
+            <br>
+            <br>
+            <div class="row">
+                <div class = "col-md-1"></div>
+                <div class = "col-md-5">
+                    <div class = "card card-logo-hover">
+                        <img src="{{ url_for('static', filename= 'images/offer-img/of-im-1.jpg')}}" class="im-of">
+                        <br>
+                        <p class="txt-off-1">Зберігання шин на території офіційного сервісного центру Mercedes-Benz</p>
+                        <br>
+                    </div>
+                </div>
+                <div class = "col-md-1"></div>
+                <div class = "col-md-1"></div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class = "col-md-1 section-back-color"></div>
+    </div>
+</section>
+
+
+
+{%endblock main%}

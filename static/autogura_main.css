@@ -1,0 +1,626 @@
+
+.a-nav-edit {
+    font-size: 20px;
+    font-family: Century Schoolbook;
+    color: #228000
+}
+.color-for-nav {
+    background-color: lightcyan;
+}
+.img_znachok {
+    width: 70px;
+    height: 70px;
+}
+.img_znachok2 {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+/* Риска, яка вилазить знизу при наведенні */
+.a-nav-edit::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease; /* Анімація риски при зміні ширини */
+}
+
+    /* Анімація при наведенні на посилання */
+.a-nav-edit:hover::after {
+    width: 80%;
+    color: green;
+}
+.a-hover:hover {
+    color: green;
+}
+.p-colorful {
+    background-color: lightgrey;
+}
+.footer-backcolor {
+    background-color: lightcyan;
+}
+.footer-images-left {
+    width: 70px;
+    height: 70px;
+}
+
+.nav-dropdown-color {
+    background-color: lightcyan;
+}
+.dropdown-text {
+    color: green;
+    font-size: 16px;
+    font-family: Century Schoolbook;
+}
+.input-width {
+    width: 100px;
+}
+.a-footer-edit {
+
+    font-size: 15px;
+    font-family: Century Schoolbook;
+    color: #228000;
+}
+.txt-horeca {
+    font-size: 21px;
+    font-family: Century Schoolbook;
+}
+.h-txt-horeca {
+    font-family: Century Schoolbook;
+}
+.table-txt-horeca {
+    font-size: 17px;
+    font-family: Century Schoolbook;
+    text-align: center;
+}
+.table-img {
+    height:80px;
+    width: 80px;
+    text-align: center;
+}
+.td-table-horeca {
+    width: 25%;
+    padding: 17px;
+}
+.section-back-color {
+    background-color: #ededed;
+}
+.table-txt-horeca {
+    font-size: 15px;
+    font-family: Century Schoolbook;
+    text-align: center;
+}
+.table-center {
+    text-align: center;
+}
+.img-hw {
+    height: 300px;
+    width: 500px;
+}
+.img-hw-2 {
+    height: 200px;
+    width: 400px;
+}
+.table-txt-horeca-end {
+    font-size: 15px;
+    font-family: Century Schoolbook;
+}
+.table-txt-horeca-ok {
+    font-size: 16px;
+    font-family: Century Schoolbook;
+    text-align: left;
+    vertical-align: middle;
+}
+.hidden-cell {
+    display: none;
+}
+
+.back-color-blue {
+    background-color: #3244a8;
+    padding-top: 90px;
+    padding-left:120px;
+    padding-right: 120px;
+    padding-bottom: 90px;
+    border: 4px double gainsboro;
+    border-radius: 25px 25px 5px 25px;
+}
+.txt-cmc-azs {
+    font-size: 30px;
+    font-family: Century Schoolbook;
+    text-align: center;
+    color: white;
+}
+.a-txt-cmc-azs {
+    font-size: 30px;
+    font-family: Century Schoolbook;
+    text-align: center;
+    color: white;
+}
+.a-cmc:hover {
+    color: white;
+}
+.td-table-horeca {
+    width: 30%;
+}
+
+.h2-cont {
+   text-align:center;
+   font-family: Century Schoolbook;
+}
+.txt-cont {
+    font-family: Century Schoolbook;
+    font-size: 24px;
+}
+.img-cont {
+    height: 40px;
+    width: 40px;
+}
+
+.txt-cont-2 {
+    font-family: Century Schoolbook;
+    font-size: 18px;
+}
+.txt-cont-a {
+    font-family: Century Schoolbook;
+    font-size: 17px;
+    color: black;
+}
+.a-cont-hover:hover {
+    color: black;
+}
+.b-div-cont-txt {
+    color: white;
+    font-size:18px;
+    font-family: Century Schoolbook;
+}
+
+.txt-cmc-cont {
+    font-size: 30px;
+    font-family: Century Schoolbook;
+    color: white;
+}
+.table-color {
+    border-color: #e3e2de;
+}
+
+.bg_color-logo-car {
+    background-color: #edeefc;
+}
+.img-logo-cars {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+.txt-logo-cars {
+    text-align: center;
+}
+.txt-logo-cars-a {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+.a-logo-hover:hover {
+    color: black
+}
+.card-logo-hover:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-up-ab {
+    max-width: 100%;
+}
+.back-im-text {
+  color: white;
+  text-align: center;
+    font-family: Century Schoolbook;
+}
+.back-im-div {
+    background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSfHj4GWilpkrpF0YuYOfYn8SHeuMHlgKyG_l6Mew_iVJOLu4q6");
+    text-align: left;
+    background-size: cover;
+}
+.table-txt-ab {
+    font-size: 25px;
+    font-family: Century Schoolbook;
+    text-align: left;
+
+}
+.table-txt-ab .any-color {
+    color: darkorange;
+}
+.bq-ab-txt {
+    font-size: 25px;
+    font-family: Century Schoolbook;
+    text-align: left;
+    color: white;
+}
+.bq-ab-back-color {
+    background-color: #303f80;
+}
+.sk-bq-ab {
+    font-size: 90px;
+    font-family: Century Schoolbook;
+    color: #5f678a;
+}
+.ar-txt {
+    text-align: right;
+    font-size: 25px;
+    font-family: Century Schoolbook;
+        color: white;
+}
+
+.ne-vidno {
+    display: none;
+}
+.table-au-mini {
+    font-family: Century Schoolbook;
+    text-align: left;
+    font-size: 17px;
+}
+.h-l-table-au {
+    font-family: Century Schoolbook;
+    text-align: left;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.h-ab-up {
+    font-family: Century Schoolbook;
+    text-align: left;
+    height: 400px
+}
+/*"{{ url_for('static', filename= 'images/about-comp-img/main_up_im.jpg')}}"*/
+.div-im-ab-up {
+    background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS2jNlsY6iYzbYVdHijcdCroPUNSOP3GS1oybDfPBIcE-LE3ssx') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.im-of {
+    height: 250px;
+    width: 490px;
+}
+.txt-off-1 {
+    font-family: Century Schoolbook;
+    text-align: center;
+    font-size: 20px;
+}
+.ch-a-blue {
+    background-color: #e3e8fa;
+}
+
+.txt-car-price {
+    font-family: Century Schoolbook;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.txt-car-ch-au-bottom {
+    font-family: Century Schoolbook;
+    font-size: 21px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.txt-car-ch-au-top {
+    margin-top: 0px;;
+    font-family: Century Schoolbook;
+    font-size: 21px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+.dol-col {
+    background-color: #2b3c80;
+    color: #fff;
+    display: inline-block;
+    padding: 0 14px;
+    font-size: 14px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.img-car-ch-au {
+    text-align: center;
+}
+.news-txt {
+    font-family: Century Schoolbook;
+    font-size: 17px;
+    text-align: left;
+
+}
+.news-date {
+    background-color: #2b3c80;
+    color: #fff;
+    float: right;
+    line-height: 27px;
+    font-size: 12px;
+    text-align: center;
+    width: 50px;
+    border-radius: 45%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.rt-date-news {
+    text-align: right;
+}
+
+.txt-we-can-icons {
+    font-weight: 300;
+    line-height: 27px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 110px;
+    margin-left: 8px;
+
+}
+.img_we_can_icons {
+    margin-top: 100px;
+    margin-left: 8px;
+}
+
+.back-icon-we-can{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+    background: linear-gradient(231.57deg, rgba(43, 60, 128, 0) 24.75%, rgba(43, 60, 128, .8) 50.82%, #2b3c80 72.95%), url('https://ukravto.ua/files/images/BusinessDirection/bd_necar.jpg');
+}
+
+.hover-we-can-icons:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.a-we-can-icons:hover {
+    text-decoration: none;
+}
+
+.img-car-up {
+    max-width: 100%;
+    height: auto;
+}
+.right_car_price {
+    text-align: right;
+    font-size: 30px;
+    font-family: Century Schoolbook;
+    margin-right: 40px;
+}
+.main_dec_txt_cac {
+    font-size: 21px;
+    font-family: Century Schoolbook;
+}
+.dwdwo {
+    border-color: black;
+    border-radius: 30px;
+    border-width: 3px;
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+
+}
+.tr_size_car {
+    max-width: 30%;
+}
+
+.table_car_h_txt {
+    font-family: Century Schoolbook;
+    text-align: center;
+}
+
+.txt_table_car_option {
+    font-family: Century Schoolbook;
+    text-align: left;
+    vertical-align: center;
+}
+
+.txt_table_car_option_answer {
+    font-family: Century Schoolbook;
+    text-align: right;
+    vertical-align: center;
+}
+
+.h_sig_txt {
+    font-family: Century Schoolbook;
+    text-align: center;
+}
+.reg-page-white {
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom: 40px;
+}
+
+.input_sig_name {
+    height:30px;
+    width: 100px;
+    border-left-color: white;
+    border-right-color: white;
+    border-top-color: white;
+    border-bottom-color: lightgrey;
+
+
+}
+.input_sig_name {
+    height:30px;
+    width: 100px;
+    border: 0;
+
+}
+.button_sig {
+    height: 50px;
+    width: 250px;
+    border-color: black;
+    border-radius: 7px;
+
+}
+.button_sig_reg {
+    height: 50px;
+    width: 250px;
+    border-color: black;
+    border-radius: 7px;
+
+}
+.txt_sig_reg_button {
+    text-align: center;
+    vertical-align: center;
+}
+
+.img_up_we_can {
+    width: 1220px;
+    height: auto;
+}
+
+.back-icon-we-can_2{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+    background: linear-gradient(231.57deg, rgba(43, 60, 128, 0) 24.75%, rgba(43, 60, 128, .8) 50.82%, #2b3c80 72.95%), url('https://ukravto.ua/files/images/BusinessDirection/bd_service.jpg');
+}
+.back-icon-we-can_3{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+    background: linear-gradient(231.57deg, rgba(43, 60, 128, 0) 24.75%, rgba(43, 60, 128, .8) 50.82%, #2b3c80 72.95%), url('https://ukravto.ua/files/images/BusinessDirection/bd_creat_car.jpg');
+}
+
+.back-icon-we-can_4{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+    background: linear-gradient(231.57deg, rgba(43, 60, 128, 0) 24.75%, rgba(43, 60, 128, .8) 50.82%, #2b3c80 72.95%), url('https://ukravto.ua/files/images/BusinessDirection/bd_creat_car.jpg');
+}
+
+.back-icon-we-can_5{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+    background: linear-gradient(231.57deg, rgba(43, 60, 128, 0) 24.75%, rgba(43, 60, 128, .8) 50.82%, #2b3c80 72.95%), url('https://ukravto.ua/files/images/BusinessDirection/bd_delivery2.jpg');
+}
+
+.back-icon-we-can_6{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+    background: linear-gradient(231.57deg, rgba(43, 60, 128, 0) 24.75%, rgba(43, 60, 128, .8) 50.82%, #2b3c80 72.95%), url('https://ukravto.ua/files/images/BusinessDirection/bd_travel.jpg');
+}
+
+.back-icon-we-can_7{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+    background: linear-gradient(231.57deg, rgba(43, 60, 128, 0) 24.75%, rgba(43, 60, 128, .8) 50.82%, #2b3c80 72.95%), url('https://ukravto.ua/files/images/BusinessDirection/bg_petrol2.jpg');
+}
+
+
+.btn_main_carousel {
+    border:1px solid white;
+    border-width: 3px;
+    background-color: transparent;
+    color: white;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+
+.txt-carousel-btn-main {
+    font-size: 21px;
+    font-family: Century Schoolbook;
+    padding: 0;
+    vertical-align:center;
+    text-align: center;
+}
+
+.black-header {
+    background-color: black;
+    width: 700px;
+    color: white;
+    margin-left: 523px;
+}
+.img-black-header {
+    height: 50px;
+    width: 50px;
+    vertical-align: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-top:5px;
+}
+
+.txt-bk-h-main {
+    text-align:left;
+    font-family: Century Schoolbook;
+}
+
+.a-main-b-h-icons {
+    color: white;
+}
+
+.a-main-b-h-icons:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+.btn_main_new {
+    border:1px solid black;
+    border-width: 3px;
+    background-color: transparent;
+    color: black;
+
+}
+.txt-btn-main {
+    font-size: 21px;
+    font-family: Century Schoolbook;
+    padding: 0;
+    vertical-align:center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
